@@ -5,38 +5,25 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Bangers&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bangers&display=swap" rel="stylesheet">
     <title>Sports</title>
     <link rel="stylesheet" href="./Sprts.css">
-    
+    <script src="../main.js"></script>
 </head>
-<body>
 
+<body>
     <div class="contaniner">
 
-        <div class="quastions"> quastions </div>
-
-
+        <div class="quastions" id="questionTitle" style="color: black;"></div>
         <div class="class parent_button">
-            <button class="anwers">option 1</button> 
-            <button class="anwers">option 2</button>
-            <button  class="anwers">option 3</button>
-            <button class="anwers"> option 4</button>
+            <button class="answers" id="answer1" onclick="nextQuestion(this,'Sports')"></button>
+            <button class="answers" id="answer2" onclick="nextQuestion(this,'Sports')"></button>
+            <button class="answers" id="answer3" onclick="nextQuestion(this,'Sports')"></button>
+            <button class="answers" id="answer4" onclick="nextQuestion(this,'Sports')"></button>
         </div>
-
-       
-
-        <div class="control">
-            
-            <button class="next">next</button>
-           
-   
-        </div>
-    
-      
-</div>
-        
-   
-    
+    </div>
 </body>
+<script >
+    examType("Sports");
+</script>
 </html>

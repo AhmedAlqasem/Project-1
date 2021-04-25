@@ -1,6 +1,6 @@
 *{
-    padding: 0;
-    margin: 0;
+    margin: 31px;
+    padding: 20px;
     box-sizing: border-box;
     font-family: 'Bangers', cursive;
 }
@@ -33,7 +33,7 @@ body{
     font-size: xx-large;
     border-radius: 8px;
     width: 75%;
-    margin-left: 11rem;
+    margin-left: 1rem;
     box-shadow: 0px 0px 10px 7px;
     
 }
@@ -53,33 +53,12 @@ margin-top: 3rem;
    margin:13px;
    
 }
-.anwers{
+.answers{
+    font-size: xx-large;
     border-radius: 6px;
     padding: 10px 10px;
     outline:none;
     background-color: rgb(182, 182, 118);
 }
        
-
-.control{
-    display: flex;
-    justify-content:center;
-    margin-right: 14.5rem;
-    margin-top: 2rem;
-    margin-left: 15rem;
-    
-    
-
-
-}
-
-.next{
-   padding: 30px;
-   border-radius:10px;
-   box-shadow: 1px 1px 0 0  ;
-   background-color: rgb(182, 182, 118);
-    
-    
-}
-
 

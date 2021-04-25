@@ -1,12 +1,9 @@
 *{
-    padding: 0;
-    margin: 0;
+    margin: 31px;
+    padding: 20px;
     box-sizing: border-box;
     font-family: 'Bangers', cursive;
 }
-
-
-
 body{
     background-image:url(./Pictures/math-chalkboard-background_23-2148152309.jpeg);
     background-repeat: no-repeat;
@@ -18,10 +15,6 @@ body{
     width: 100%;
     background-position: center;
     background-attachment: fixed;
-   
- 
-   
-   
 }
 
 .contaniner{
@@ -33,17 +26,14 @@ body{
     font-size: xx-large;
     border-radius: 8px;
     width: 75%;
-    margin-left: 11rem;
+    margin-left: 1rem;
     box-shadow: 0px 0px 10px 7px;
-    
+
 }
 
 .quastions{
-padding: 1rem;
-margin-top: 3rem;
-
-
-
+    padding: 1rem;
+    margin-top: 3rem;
 }
 .parent_button {
    display:grid;
@@ -54,32 +44,9 @@ margin-top: 3rem;
    
 }
 .anwers{
+    font-size: xx-large;
     border-radius: 6px;
     padding: 10px 10px;
     outline:none;
     background-color: rgb(187, 47, 187);
 }
-       
-
-.control{
-    display: flex;
-    justify-content:center;
-    margin-right: 14.5rem;
-    margin-top: 2rem;
-    margin-left: 15rem;
-    
-    
-
-
-}
-
-.next{
-   padding: 30px;
-   border-radius:10px;
-   box-shadow: 1px 1px 0 0  ;
-   background-color:rgb(187, 47, 187);
-    
-    
-}
-
-

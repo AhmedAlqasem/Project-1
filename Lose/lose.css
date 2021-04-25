@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(./kaybetmek\ için.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height:100vh;
+    width: 100%;
+    background-position: center;
+    background-attachment: fixed;
+   
+}
+a{
+    text-decoration: none;
+    color:black
+}
+
+button{
+    display:flexbox;
+    justify-content:center;
+    box-sizing: border-box;
+    border-radius: 20px;
+    box-shadow: 8px;
+    background-color: #f2f5f6;
+    padding: 2rem;
+    font-size: xx-large;
+    font-family: 'Poiret One', cursive;
+    margin: 65px;
+    margin-top: 30rem;
+    margin-right: 138px;
+    margin-left: 18px;
+}

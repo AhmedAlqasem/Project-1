@@ -19,13 +19,9 @@ ul{
      text-decoration: none;
      color:rgb(51 195 254);
  }
- .left_img{
-     color: rgb(15, 127, 202);
- }
 
- .right_img{
-color:rgba(6, 99, 187, 0.664);
- }
+
+
 .first_part{
     display:flex ;
     justify-content: space-around;
@@ -35,16 +31,7 @@ color:rgba(6, 99, 187, 0.664);
     font-size: xx-large;
     color:rgb(246, 250, 0)
 
-
 }
-
-
-
-    
-   
-
-
-
 .button {
     display: inline-block;
     border-radius: 4px;
