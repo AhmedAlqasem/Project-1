@@ -163,8 +163,6 @@ const examType = (type) => {
         document.getElementById("answer4").textContent = historyQuestions[answerNumber].answers[3].answer;
         document.getElementById("answer4").value = historyQuestions[answerNumber].answers[3].isCorect;
 
-
-
         answerNumber++;
     }
     if (type === "Math") {
@@ -177,55 +175,35 @@ const examType = (type) => {
         document.getElementById("answer3").value = mathQuestions[answerNumber].answers[2].isCorect;
         document.getElementById("answer4").textContent = mathQuestions[answerNumber].answers[3].answer;
         document.getElementById("answer4").value = mathQuestions[answerNumber].answers[3].isCorect;
-
-
         answerNumber++;
+        
     }
-}
-const nextPage = () => {
-
-    window.location = 'x.html';
 }
 let counter = 0;
-
-
 const nextQuestion = (btn, type) => {
-    if (answerNumber < 4) {
-        if (btn.value) {
-            if (btn.value === 'true') {
-                counter++;
-
-
-            }
+    debugger;
+    if(btn.value === 'true')
+    {
+        counter++;
+        if (answerNumber < 4) {
 
             examType(type);
+
+        }
+        else {
+            document.location.href="../win/Win.html";
         }
     }
-    else {
-        nextPage();
-
-
-
-
-
-
-        // }else{  }
-
-
+    else
+    {
+        document.location.href="../lose/lose.html";
     }
+    
 }
-
-        //   if(answerNumber === 4)
-        //   {
-        //     document.location.href="Win.html";
-        //   }
-        //     examType(type);
-
-        //   else{
-        //     document.location.href="Lose/lose.html";
-        //   }}
-
-
+//features you have to add
+//1_local storage
+// counter for the result 
+// sounds for marks
 
 
 
