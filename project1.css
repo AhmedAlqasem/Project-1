@@ -24,7 +24,7 @@ ul{
 
 .first_part{
     display:flex ;
-    justify-content: space-around;
+    justify-content: center;
     padding-top: 8rem;
     padding-left: 3rem;
     padding-right: 4rem;
